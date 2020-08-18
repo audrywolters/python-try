@@ -1,4 +1,17 @@
 
+# fizz buzz!
+def fizzBuzz():
+    for number in range( 25 ):
+        if ( number % 3 == 0 ):
+            print( 'fizz' )
+        elif ( number % 5 == 0 ):
+            print( 'buzz' )
+        else:
+            print( 'fizz buzz' )
+        
+fizzBuzz()
+
+
 # function and variable
 def helloFriend( friendName ):
     print ( 'hello ' + friendName )
