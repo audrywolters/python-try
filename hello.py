@@ -1,4 +1,6 @@
+
 def helloFriend( friendName ):
     print ( 'hello ' + friendName )
 
-helloFriend( 'Jill' )
+friends = 'Jill and Megan'
+helloFriend( friends )
